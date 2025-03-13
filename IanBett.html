@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Website</title>
+</head>
+<body>
+
+    <!-- Part 1: Heading -->
+    <h1>Welcome to My Web Page!</h1>
+
+    <!-- Part 2: Paragraph and Links -->
+    <p>Hello! My name is Ian Bett. I am passionate about Chasing Dreams and Making Memories</p>
+    
+    <!-- External Link -->
+    <p>Check out my favorite website: <a href="https://asoftmurmur.com/" target="_blank">Click Here</a></p>
+
+    <!-- Internal Link -->
+    <p><a href="#about-me">Go to About Me Section</a></p>
+
+    <!-- Part 3: Image -->
+    <img src="images/myImage.jpg" alt="A picture of me" width="300" height="300">
+
+    <!-- Part 4: Form -->
+    <h2>Contact Me</h2>
+    <form>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required><br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required><br><br>
+
+        <label for="birthdate">Birthdate:</label>
+        <input type="date" id="birthdate" name="birthdate"><br><br>
+
+        <!-- Gender Radio Buttons -->
+        <label>Gender:</label>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Male</label>
+
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label>
+
+        <input type="radio" id="other" name="gender" value="other">
+        <label for="other">Other</label><br><br>
+
+        <!-- Favorite Color Dropdown -->
+        <label for="color">Favorite Color:</label>
+        <select id="color" name="color">
+            <option value="red">Blue</option>
+            <option value="blue">White</option>
+            <option value="green">Black</option>
+        </select><br><br>
+
+        <input type="submit" value="Submit">
+    </form>
+
+    <!-- Part 5: Lists -->
+    <h2>My Favorite Movies</h2>
+    <ol>
+        <li>Beauty In Black</li>
+        <li>The Nun</li>
+        <li>Fifty Shades of Grey</li>
+    </ol>
+
+    <h2>My Hobbies</h2>
+    <ul>
+        <li>Swimming</li>
+        <li>Watching Movies</li>
+        <li>Playing Football</li>
+    </ul>
+
+    <!-- Part 5: Table -->
+    <h2>My Courses and Grades</h2>
+    <table border="1">
+        <tr>
+            <th>Course Name</th>
+            <th>Grade</th>
+        </tr>
+        <tr>
+            <td>Calculus</td>
+            <td>A</td>
+        </tr>
+        <tr>
+            <td>Physics</td>
+            <td>B</td>
+        </tr>
+        <tr>
+            <td>Computer Science</td>
+            <td>A+</td>
+        </tr>
+    </table>
+
+    <!-- Internal Link Target -->
+    <h2 id="about-me">About Me</h2>
+    <p>This section contains more details about me.</p>
+
+</body>
+</html>
